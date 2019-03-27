@@ -1,19 +1,75 @@
 # Intro to Machine Learning
 
-Galvanize info
+Brought to you by Galvanize. Learn more about the way we teach at [galvanize.com](http://galvanize.com).
 
-Free DSI prep
 
-FAQs
+Learn more Python & Data Science with Galvanize Data Science Premium Prep! Currently free if you sign up now! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
 
-# Intros
+Get to this repo by typing in URL: **ml.sage.codes**
 
-Intros and stuff
+### FAQ: 
+
+- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
+
+
+## Setting up your computer
+* A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
+* We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
+* Open this github Repo to follow along
+
 
 
 # What this workshop is
 
+A super friendly introduction to Machine Learning No previous experience expected, but knowing some python will help!
+
+You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
+
+- This course is for absolute beginners
+- Ask Questions!
+- Answer Questions!
+- Help others when you can
+- Its ok to get stuck, just ask for help!
+- Feel free to move ahead
+- Be patient and nice
+
 We're not going to focus on the math behind the models. We're going to focus more on when and how to use a model. If you would like to go into the math and more about each model I encourage you to do so!
+
+## About me:
+
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! For the past decade I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! 
+
+I got into Machine Learning solving a manufacturing problem at my last job with computer vision, and I think its one of the coolest fields!
+
+**Note:** I'm not a Galvanize Instructor, they're way better at teaching!
+
+- Website: [sageelliott.com](http://sageelliott.com/)
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+Reach out to me if interested in:
+
+- breaking into the tech industry 
+- learning resources
+- meetup recommendations 
+- learning more about Galvanize
+- giving me suggestions for events!
+- being friends
+
+
+## About you!
+
+Give a quick Intro!
+
+- Whats your name?
+- Whats your background?
+- Why are you interested in Machine Learning?
+
+
 
 
 # What is Machine Learning:
@@ -21,6 +77,9 @@ We're not going to focus on the math behind the models. We're going to focus mor
 
 ###  Who uses Machine Learning?
 
+
+
+### Machine Learning Applications
 
 
 
@@ -161,9 +220,12 @@ Do you have an awesome idea you want to use try using machine learning? What is 
 </details>
 
 
-## resources
+## KEEP LEARNING!
 
+Best way to learn is solving a problem you're excited about!
 
+#### Resources
+Siraj
 
 
 
