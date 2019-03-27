@@ -124,22 +124,44 @@ These companies use Machine Learning in many other ways!
 
 We talked about a some examples above from big companies we probably all know of. But here are several more types of applications that machine learning has become popular with.
 
-Healthcare
+#### Healthcare
 
-Smart Home Devices
+- Cancer Detection
+- X-Ray diagnostic 
 
-Art / Character generation (nVidia face example)
+#### Smart Home Devices
 
-Agriculture
+- Smart door Beel
+- Smart Lights
+- Security
 
-Supply Chain 
+#### Image generation
 
-Manufacturing 
+- [NVIDIA’s Hyperrealistic Face Generator](https://medium.com/syncedreview/gan-2-0-nvidias-hyperrealistic-face-generator-e3439d33ebaf)
+- video game Character or level generation
+- [art generation](https://www.artnome.com/news/2018/3/29/ai-art-just-got-awesome)
 
-Fraud Detection
+
+#### Agriculture
+
+- Crop monitoring & planning
+
+#### Supply Chain 
+
+- Sourcing and Shipping Automation
+
+#### Manufacturing 
+
+- Quality Assurance
+- Design
 
 
-All of these revolve around understanding complicated patterns!
+#### Fraud Detection
+
+- Credit cards
+- Product listings
+
+You can see how all of these applications revolve around finding patterns in data!
 
 
 
@@ -148,15 +170,53 @@ All of these revolve around understanding complicated patterns!
 
 ## Supervised Learning
 
-What is supervised ML?
+Supervised Learning uses a dataset that is labeled. In this context imagine having a list of features and 
+
+
+Here we have features(sepal length (cm), etc) and a label(Flower Species)
+
+| sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |  Species | 
+|---|---|---|---|---|---|
+| 5.1 |  3.5 |  1.4 |  0.2 | setosa| 
+| 5.7	| 2.9 | 4.2 | 1.3 | versicolor | 
+| 7.7 | 3.0  | 6.1  | 2.3  |  virginica |
+
+We could use a full dataset with data like above to make a prediction of the flower species given only the Petal and Sepal Lengths.
+
+
+Another good example of supervised learning is a email spam filter. 
+
+Say we have a bunch of emails in our dataset and they all have a label of either `spam` or `not_spam`. We could then train a supervised learning model to look at all of those emails and pick up patterns that show up in the spam emails. There are probably certain words or formattiing that repeat them selves. If you've ever looked in your email spam folder you can probably pick out some of those things yourself!
+
+There are 2 main types of supervised learning:
 
 ### Classification
 
+Classification tries to assign the correct label to a new piece of data not containing a label. Both examples above are good examples of classfication problems.
+
+Spam filter would look at an email and decide if it should be labeled as `spam` or `not_spam`
+
+We could be given a new flower measurment and we want to try to label it with the correct Species: `setosa`, `versicolor`, `virginica`
+
+| sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |
+|---|---|---|---|---|---|
+| 5.1 |  3.5 |  1.4 |  0.2 |  
+
+According to a model I trained it thinks this would be `versicolor`. 
+
+
 ### Regression
 
+Regression tries to prdeict a target value
+
+stock price 
+
+Housing price
 
 
 ## Unsupervised Learning
+
+Unsupervised Learning uses a dataset that is not labeled. 
 
 ### Clustering 
 
