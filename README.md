@@ -17,16 +17,15 @@ Get to this repo by typing in URL: **ml.sage.codes**
 
 ## Setting up your computer
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
-* We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
+* We will be using Google Colab for this workshop so make a Google accoung if you don't already have one. 
 * Open this github Repo to follow along
-
 
 
 # What this workshop is
 
 A super friendly introduction to Machine Learning No previous experience expected, but knowing some python will help!
 
-You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
+You can't learn EVERYTHING in ~2 hours, especially when it comes to Machine Learning! But you can learn enough to get excited and comfortable to keep working and learning on your own! 
 
 - This course is for absolute beginners
 - Ask Questions!
@@ -42,9 +41,9 @@ We're not going to focus on the math behind the models. We're going to focus mor
 
 Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! For the past decade I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! 
 
-I got into Machine Learning solving a manufacturing problem at my last job with computer vision, and I think its one of the coolest fields!
+I Originally got into Machine Learning by solving a manufacturing problem at my last job with computer vision, and I think its one of the coolest fields!
 
-**Note:** I'm not a Galvanize Instructor, they're way better at teaching!
+**Note:** I'm not a Galvanize Instructor, they're way better at teaching than I am!
 
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
@@ -71,15 +70,76 @@ Give a quick Intro!
 
 
 
-
 # What is Machine Learning:
+
+
+To put it very simply Machine Learning can usually be thought of using a statistical model built based on a dataset to solve a problem. 
+
+Instead of explicitly programming an algorithm to do a specific task, we let it "learn" from data to find patterns and inference.
+
+We'll see example of this soon!
 
 
 ###  Who uses Machine Learning?
 
+More and more companies using making descions with data are using machine learning. Here are just a few examples that you've probably experiences as a customer.
+
+#### Amazon
+
+- Product Recommendations
+- Amazon GO Computer Vision
+- Alexa 
+- Delivery Robots
+
+
+#### Netflix
+
+- Show & Movie Recommendations
+
+#### Google
+
+- Gmail Spam Filtering
+- Google Assistance
+- Youtube Content filtering & Recommendations
+- Self Driving Cars
+
+#### Apple
+
+- Siri
+- App Store Recommendations
+
+#### Facebook
+
+- Face Tagging Detection
+
+#### Tesla
+
+- Self Driving Cars
+
+These companies use Machine Learning in many other ways!
+
 
 
 ### Machine Learning Applications
+
+We talked about a some examples above from big companies we probably all know of. But here are several more types of applications that machine learning has become popular with.
+
+Healthcare
+
+Smart Home Devices
+
+Art / Character generation (nVidia face example)
+
+Agriculture
+
+Supply Chain 
+
+Manufacturing 
+
+Fraud Detection
+
+
+All of these revolve around understanding complicated patterns!
 
 
 
@@ -87,6 +147,8 @@ Give a quick Intro!
 
 
 ## Supervised Learning
+
+What is supervised ML?
 
 ### Classification
 
@@ -115,7 +177,11 @@ Seperate topic Want to do a quick mention here. Let me know if you'd like to see
 
 Example
 
-For this class we're going to focus on Supervised Machine learning. 
+
+
+For this class we're going to stay focused on Supervised Machine learning. 
+
+But what would you like to see a class on next?
 
 
 ## Supervised Learning Models
@@ -141,6 +207,8 @@ fitting / training
 
 ### Bias:
 
+Examples
+
 ##### overfitting
 
 ##### underfitting
@@ -163,12 +231,21 @@ Again this just some of them, there are soooooo many.....
 
 
 Pandas
+
 Numpy
+
+matplotlib
+
 Scikitlearn
+
 Tensorflow
+
 Pytorch
+
 Keras
+
 NLTK
+
 OpenCV
 
 
