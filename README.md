@@ -6,70 +6,117 @@ Free DSI prep
 
 FAQs
 
+# Intros
+
 Intros and stuff
 
-## What is Machine Learning
 
-## Types of Machine Learning
+# What this workshop is
 
-#### Supervised Learning
+# What is Machine Learning
+
+# Types of Machine Learning
+
+## Supervised Learning
+
+### Classification
+
+### Regression
+
+
+
+## Unsupervised Learning
+
+### Clustering 
+### Association
+
+## Reinforcment Learning
+
 Example
 
+## Semi-Supervised Machine Learning
 
-Classification
-Regression
-
-
-#### Unsupervised Learning
-Example
-Clustering 
-Association
-
-#### Reinforcment Learning
-Example
-
-#### Semi-Supervised Machine Learning
 example
 
-#### Deep Learning
+## Deep Learning & Neural Networks
 
 Seperate topic Want to do a quick mention here. Let me know if you'd like to see a workshop on deep learning basics!
 
+Example
+
 
 ## Supervised Learning Models
-Some of the common models. Having an idea of what these do and applications
+
+For this class we're going to focus on supervised learning. 
 
 
-Linear Regression
+Some of the common models. Having an idea of what these do and applications they should be used for is important! 
 
-Logistic regression
 
-k-NN
+[Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 
-Support Vector Machines
+[Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
-Random Forest & descion trees
+[K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+
+[Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine)
+
+[Random Forest](https://en.wikipedia.org/wiki/Random_forest)
 
 
 ## Some Basics Terms
 
-We can only scratch the surface of Machine Learning tonight in this workshop, so this is by no means everything you need to know
+We can only scratch the surface of Machine Learning tonight in this workshop, so this is by no means everything you need to know, but it should help you get started!
 
-Fitting
+
+fitting / training
 
 overfitting
 
-undre fitting
+underfitting
 
 cross validation
 
-xgboost
+XGboost (I heard this term all the time when I was first starting out)
 
 
-## k-NN Project
+## Popular Python Machine Learning Libraries
 
-## Linear Regression Project
+Again this just some of them!
 
+
+
+
+## Regression Project
+
+Boston House price
+
+Look at data. 
+
+Look at expected outcome.
+
+What model is good for this?
+
+Prediction outcome: Classification or Regression?
+
+
+### Linear Regression
+
+Boston House price
+
+
+## Classification Project
+
+### k-NN Project
+
+
+# YOU MAKE IT THORUGH!
+
+Did you learn something new?
+
+Do you feel more comfortable with the ideas of Machine Learning?
+
+Do you have an awesome idea you want to use try using machine learning? What is it?
 
 
 ## Recap
@@ -84,8 +131,13 @@ xgboost
 
 ## resources
 
+
+
+
+
 ## Upcoming events
 
+What would you like to see next?
 
 
 
