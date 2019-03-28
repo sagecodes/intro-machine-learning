@@ -170,7 +170,7 @@ You can see how all of these applications revolve around finding patterns in dat
 
 ## Supervised Learning
 
-Supervised Learning uses a dataset that is labeled. In this context imagine having a list of features and 
+Supervised Learning uses a dataset that is labeled. In this context imagine having a list of features and a label(group) that those features belong to.
 
 
 Here we have features(sepal length (cm), etc) and a label(Flower Species)
@@ -188,7 +188,7 @@ Another good example of supervised learning is a email spam filter.
 
 Say we have a bunch of emails in our dataset and they all have a label of either `spam` or `not_spam`. We could then train a supervised learning model to look at all of those emails and pick up patterns that show up in the spam emails. There are probably certain words or formattiing that repeat them selves. If you've ever looked in your email spam folder you can probably pick out some of those things yourself!
 
-There are 2 main types of supervised learning:
+There are 2 main types of supervised learning Classification and Regression:
 
 ### Classification
 
@@ -207,35 +207,85 @@ According to a model I trained it thinks this would be `versicolor`.
 
 ### Regression
 
-Regression tries to prdeict a target value
+Instead of predicting a label like classification, Regression predicts a value. 
 
-stock price 
+This example has features `crime rate`, `Zoning`, `rooms`, `square footage` and a value `price`. 
 
-Housing price
+| crime rate | Zoning  | rooms  | square footage  | price |
+|---|---|---|---|---|
+| .5 |  3.5 |  5 |  1400 |  100000 |
+| .2 |  2 |  3 |  3000 |  50000 |
+| .3 |  4 |  7 |  1800 |  150000 |
+
+Unlike the classification example where we tried to predict what group features belonged to, we want to predict what value the features would have. This could be a number ranging anywhere! 
+
+Given a list of new features from a house like below, we would then want to find out how much that house is worth by predicting a number value.
+
+| crime rate | Zoning  | rooms  | square footage  |
+|---|---|---|---|
+| .7 |  4 |  2 |  1000 |
+
+
+Some other examples to think about Predicting:
+- Stock price 
+- Age
+
+
+This workshop is going to focus on supervised Machine Learning, but we'll talk briefly about some of the other types!
 
 
 ## Unsupervised Learning
 
-Unsupervised Learning uses a dataset that is not labeled. 
+Unsupervised Learning uses a dataset that is not labeled and gains insight about its patterns.
+
+
 
 ### Clustering 
 
-### Association
+A common way of using unsupervised learning is clustering.
+
+![iris](irisviz.png)
+
+This picture shows an example of visualizing the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) we talked about before. We can see that there are features that relate to each species. If we didn't have those labels we could use unsupervised learning to create clusters seperating the groups out that would probably look pretty similar to this. We could then add a label to those clusters.
+
+
+An example to think about is if you have a large dataset of customers. Maybe you would like to segment them out to cluster similar customers. 
+
+
+## Semi-Supervised Machine Learning
+
+Uses mixed dataset labeled with labeled and unlabeled to train the model and a combonation of supervised and unsupervised machine learning.
+
+Semi Supervised Machine learning can be important to look into if you don't have enough labeled data to create a good model. Labeling and aquired labeled data can be extremely expensive / time consuming so developing a model that can use both types of data is super intriguing!  
+
+
+Imagine trying to label every peice of information you get from a self driving car! You have a constant video feed, Lidar, and other sensors. 
+
 
 
 ## Reinforcment Learning
 
-Example
+Reinforcment Learning is often used in a situation where an algorith can take an action in an envroment and recieve a `reward` based on making a good descion.
 
-## Semi-Supervised Machine Learning
+You see a lot of example of this type of machine learning used to make computers exccellent gamers!
 
-Example
+A couple exmpales:
 
-## Deep Learning & Neural Networks
+[Open AI Gym](https://gym.openai.com/)
+
+[Flappy Bird](https://github.com/yenchenlin/DeepLearningFlappyBird)
+
+
+
+## Deep Learning
 
 Seperate topic Want to do a quick mention here. Let me know if you'd like to see a workshop on deep learning basics!
 
-Example
+Deep Learning is a subset of Machine Learning. 
+
+It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and can learn from data to change the weights of the neurons. 
+
+[A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificiial Neural Networks! 
 
 
 
@@ -246,17 +296,29 @@ But what would you like to see a class on next?
 
 ## Supervised Learning Models
 
-Some of the common models. Having an idea of what these do and applications they should be used for is important! 
+Some of the common models. Having an idea of what these do and applications they should be used for is important! I will only briefly go over them so please read more about them!
 
-[Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
+#### [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 
-[Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
+Use for regression problems
 
-[K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+#### [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
-[Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine)
+NOT used for regression problems! Has regression in the same due to the statistics behind the model.
 
-[Random Forest](https://en.wikipedia.org/wiki/Random_forest)
+
+
+#### [K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+
+Classification
+
+#### [Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine)
+
+Classification
+
+#### [Random Forest](https://en.wikipedia.org/wiki/Random_forest)
+
+Classification
 
 
 # Some Basics Terms:
@@ -287,7 +349,6 @@ Gradient Decent
 ## Popular Python Data & Machine Learning Libraries
 
 Again this just some of them, there are soooooo many.....
-
 
 
 Pandas
