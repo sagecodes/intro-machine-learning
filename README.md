@@ -351,23 +351,23 @@ Gradient Decent
 Again this just some of them, there are soooooo many.....
 
 
-Pandas
+#### Pandas
 
-Numpy
+#### Numpy
 
-matplotlib
+#### matplotlib
 
-Scikitlearn
+#### Scikitlearn
 
-Tensorflow
+#### Tensorflow
 
-Pytorch
+#### Pytorch
 
-Keras
+#### Keras
 
-NLTK
+#### NLTK
 
-OpenCV
+#### OpenCV
 
 
 
@@ -389,9 +389,9 @@ What model is good for this?
 Prediction outcome: Classification or Regression?
 
 
-### Linear Regression
+### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
 
-Boston House price
+
 
 
 ## Classification Project
