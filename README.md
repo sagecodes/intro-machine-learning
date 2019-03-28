@@ -176,7 +176,7 @@ Supervised Learning uses a dataset that is labeled. In this context imagine havi
 Here we have features(sepal length (cm), etc) and a label(Flower Species)
 
 | sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |  Species | 
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 5.1 |  3.5 |  1.4 |  0.2 | setosa| 
 | 5.7	| 2.9 | 4.2 | 1.3 | versicolor | 
 | 7.7 | 3.0  | 6.1  | 2.3  |  virginica |
@@ -199,7 +199,7 @@ Spam filter would look at an email and decide if it should be labeled as `spam` 
 We could be given a new flower measurment and we want to try to label it with the correct Species: `setosa`, `versicolor`, `virginica`
 
 | sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |
-|---|---|---|---|---|---|
+|---|---|---|---|
 | 5.1 |  3.5 |  1.4 |  0.2 |  
 
 According to a model I trained it thinks this would be `versicolor`. 
