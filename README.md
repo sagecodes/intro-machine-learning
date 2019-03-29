@@ -279,15 +279,15 @@ A couple exmpales:
 
 ## Deep Learning
 
-Seperate topic Want to do a quick mention here. Let me know if you'd like to see a workshop on deep learning basics!
-
 Deep Learning is a subset of Machine Learning. 
 
 It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and can learn from data to change the weights of the neurons. 
 
 [A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificiial Neural Networks! 
 
+Let me know if you would like a worksshop on Deep Learning!
 
+---
 
 For this class we're going to stay focused on Supervised Machine learning. 
 
@@ -300,48 +300,80 @@ Some of the common models. Having an idea of what these do and applications they
 
 #### [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 
-Use for regression problems
+Use for **regression**
+
+Use for regression problems to predict a value on a continous spectrum 
 
 #### [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
+Use for **classification**
+
 NOT used for regression problems! Has regression in the same due to the statistics behind the model.
 
+Used to predict binary outputs (yes, no | true, false | Pass, fail)
 
+looking for probability above a certain threshold
+
+if .5 
 
 #### [K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
-Classification
+Use for **classification**
 
-#### [Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine)
+k-NN finds the `k` number of nearest data points and makes a `educated` guess based on the classifications of the nearest datapoints.
 
-Classification
+![iris](irisknn.png)
 
-#### [Random Forest](https://en.wikipedia.org/wiki/Random_forest)
 
-Classification
+#### [Decision Trees](https://en.wikipedia.org/wiki/Random_forest)
+
+Use for **classification**
+
+Maybe an over simplification but a Decision tree can be thought of like a bunch of if statements. 
+
+You've probably seen flow chats before with different paths to take depending on the data.
+
+
+
+There are of course more than these 4 models, a few more popular ones you should look into are [Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine), [Random Forests](https://en.wikipedia.org/wiki/Random_forest), and [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier).
+
+
+### How do you choose the algorithm?
+
+There can be a lot of factors to consider, like the size of data, Labels, Accuracy, Scalability, etc... A lot of these out of the scope for this workshop.
+
+But when you're first starting out It's important to think about your desired outcome(output of the model).   
+
+Is it a number? Its a Regression problem.
+Is it a class? Its a classfication problem.
+Are you seperating data into groups? It’s a clustering problem
+
+https://scikit-learn.org/stable/tutorial/machine_learning_map/
+
 
 
 # Some Basics Terms:
 
 We can only scratch the surface of Machine Learning tonight in this workshop, so this is by no means everything you need to know, but it should help you get started!
 
-fitting / training
+##### fitting
 
-### Bias:
+Training your model on your dataset. You'll see terms like fit and train used interchangeably
 
-Examples
 
-##### overfitting
+##### [overfitting](https://en.wikipedia.org/wiki/Overfitting)
 
-##### underfitting
 
-cross validation
 
-XGboost (I heard this term all the time when I was first starting out)
+##### [underfitting](https://en.wikipedia.org/wiki/Overfitting#Underfitting)
 
-loss function
 
-Gradient Decent
+
+##### [cross validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+
+Validate that your machine learning model is working on well on data that it was not trained on. 
+
+We trained the model, but need to validate that its working as expected. A common way is to split the dataset into traning and testing(We'll do this soon in python).
 
 
 # Machine Learning with Python:
@@ -351,42 +383,36 @@ Gradient Decent
 Again this just some of them, there are soooooo many.....
 
 
-#### Pandas
+#### [Pandas](https://pandas.pydata.org/)
 
-#### Numpy
+#### [Numpy](http://www.numpy.org/)
 
-#### matplotlib
+#### [matplotlib](https://matplotlib.org/)
 
-#### Scikitlearn
+#### [Scikitlearn](https://scikit-learn.org/stable/)
 
-#### Tensorflow
+#### [Tensorflow](https://www.tensorflow.org/)
 
-#### Pytorch
+#### [Pytorch](https://pytorch.org/)
 
-#### Keras
+#### [Keras](https://keras.io/)
 
-#### NLTK
+#### [NLTK]()
 
-#### OpenCV
+#### [https://opencv.org/]()
 
 
 
-*note* about anaconda
 
+*Note*: if you're thinking of exploring data science with python loaclly on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
 
 
 
 ## Regression Project
 
-Boston House price
+[Boston House Dataset](https://www.kaggle.com/c/boston-housing)
 
-Look at data. 
-
-Look at expected outcome.
-
-What model is good for this?
-
-Prediction outcome: Classification or Regression?
+Looking at this data how do we know that regression will be a good choice? Why not Classfication?
 
 
 ### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
@@ -396,7 +422,11 @@ Prediction outcome: Classification or Regression?
 
 ## Classification Project
 
-### k-NN Project
+[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+Looking at this data how do we know that Classfication will be a good choice? Why not Regression?
+
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
 
 
 # YOU MADE IT THORUGH!
@@ -408,28 +438,60 @@ Do you feel more comfortable with the ideas of Machine Learning?
 Do you have an awesome idea you want to use try using machine learning? What is it?
 
 
-## Recap
-
-<details>
-  <summary>What is a conditional in Python?</summary>
-  
- A way to check if data meets a certain condition or not. `if` `elif` `else`.
-	
-</details>
-
 
 ## KEEP LEARNING!
 
 Best way to learn is solving a problem you're excited about!
 
-#### Resources
-Siraj
+Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
 
 
+Start learning Software Engineering with our FREE online prep course!
+[https://www.galvanize.com/web-development/prep](https://www.galvanize.com/web-development/prep)
 
-## Upcoming events
+Start learning Data Science with our FREE online prep course!
+Premium option is free if you sign up today! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
+
+#### other Resources
+Siraj 
+
+
+## Upcoming Events!
+We host many events! check out out our [meetup](https://www.meetup.com/Learn-Code-Seattle/events/) to stay up to date.
 
 What would you like to see next?
+
+- JavaScript Mini Bootcamp: Fundamentals II - 3/30 10am - 4:30pm
+- Intro to Data Analytics with Tableau - 4/04 6:30 - 8:30pm
+- JavaScript Mini Bootcamp: Fundamentals I - 4/13 10am - 4:30pm
+- JavaScript 101 - 4/17 6:30 - 8:30pm
+
+
+## What is Galvanize?
+
+#### Immersive Bootcamp
+
+- [Software Engineer](https://www.galvanize.com/web-development) - 4/8/19 - 7/5/19
+- [Data Science](https://www.galvanize.com/data-science) - 5/6/19 - 8/6/19
+
+
+#### Part-Time Courses
+
+- [Digital Marketing](https://www.galvanize.com/part-time/digital-marketing) - 5/13/19 - 6/7/19
+
+#### Co-working Space
+
+[work in our building!](https://www.galvanize.com/entrepreneur)
+
+## Questions
+
+Please feel free to reach out to me with any questions! Let me know what you're planning to do next and how I can help!
+
+
+- Website: [sageelliott.com](http://sageelliott.com/)
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
 
 
 
