@@ -21,7 +21,7 @@ Get to this repo by typing in URL: **ml.sage.codes**
 
 ## Setting up your computer
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
-* We will be using Google Colab for this workshop so make a Google accoung if you don't already have one. 
+* We will be using Google Colab for this workshop so make a Google account if you don't already have one. 
 * Open this github Repo to follow along
 
 
@@ -86,7 +86,7 @@ We'll see example of this soon!
 
 ###  Who uses Machine Learning?
 
-More and more companies using making descions with data are using machine learning. Here are just a few examples that you've probably experiences as a customer.
+More and more companies using making decisions with data are using machine learning. Here are just a few examples that you've probably experiences as a customer.
 
 #### Amazon
 
@@ -190,17 +190,17 @@ We could use a full dataset with data like above to make a prediction of the flo
 
 Another good example of supervised learning is a email spam filter. 
 
-Say we have a bunch of emails in our dataset and they all have a label of either `spam` or `not_spam`. We could then train a supervised learning model to look at all of those emails and pick up patterns that show up in the spam emails. There are probably certain words or formattiing that repeat them selves. If you've ever looked in your email spam folder you can probably pick out some of those things yourself!
+Say we have a bunch of emails in our dataset and they all have a label of either `spam` or `not_spam`. We could then train a supervised learning model to look at all of those emails and pick up patterns that show up in the spam emails. There are probably certain words or formatting that repeat them selves. If you've ever looked in your email spam folder you can probably pick out some of those things yourself!
 
 There are 2 main types of supervised learning Classification and Regression:
 
 ### Classification
 
-Classification tries to assign the correct label to a new piece of data not containing a label. Both examples above are good examples of classfication problems.
+Classification tries to assign the correct label to a new piece of data not containing a label. Both examples above are good examples of classification problems.
 
 Spam filter would look at an email and decide if it should be labeled as `spam` or `not_spam`
 
-We could be given a new flower measurment and we want to try to label it with the correct Species: `setosa`, `versicolor`, `virginica`
+We could be given a new flower measurement and we want to try to label it with the correct Species: `setosa`, `versicolor`, `virginica`
 
 | sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |
 |---|---|---|---|
@@ -250,7 +250,7 @@ A common way of using unsupervised learning is clustering.
 
 ![iris](irisviz.png)
 
-This picture shows an example of visualizing the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) we talked about before. We can see that there are features that relate to each species. If we didn't have those labels we could use unsupervised learning to create clusters seperating the groups out that would probably look pretty similar to this. We could then add a label to those clusters.
+This picture shows an example of visualizing the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) we talked about before. We can see that there are features that relate to each species. If we didn't have those labels we could use unsupervised learning to create clusters separating the groups out that would probably look pretty similar to this. We could then add a label to those clusters.
 
 
 An example to think about is if you have a large dataset of customers. Maybe you would like to segment them out to cluster similar customers. 
@@ -258,22 +258,22 @@ An example to think about is if you have a large dataset of customers. Maybe you
 
 ## Semi-Supervised Machine Learning
 
-Uses mixed dataset labeled with labeled and unlabeled to train the model and a combonation of supervised and unsupervised machine learning.
+Uses mixed dataset labeled with labeled and unlabeled to train the model and a combination of supervised and unsupervised machine learning.
 
-Semi Supervised Machine learning can be important to look into if you don't have enough labeled data to create a good model. Labeling and aquired labeled data can be extremely expensive / time consuming so developing a model that can use both types of data is super intriguing!  
-
-
-Imagine trying to label every peice of information you get from a self driving car! You have a constant video feed, Lidar, and other sensors. 
+Semi Supervised Machine learning can be important to look into if you don't have enough labeled data to create a good model. Labeling and acquired labeled data can be extremely expensive / time consuming so developing a model that can use both types of data is super intriguing!  
 
 
+Imagine trying to label every piece of information you get from a self driving car! You have a constant video feed, Lidar, and other sensors. 
 
-## Reinforcment Learning
 
-Reinforcment Learning is often used in a situation where an algorith can take an action in an envroment and recieve a `reward` based on making a good descion.
 
-You see a lot of example of this type of machine learning used to make computers exccellent gamers!
+## Reinforcement Learning
 
-A couple exmpales:
+Reinforcement Learning is often used in a situation where an algorithm can take an action in an environment and receive a `reward` based on making a good design.
+
+You see a lot of example of this type of machine learning used to make computers excellent gamers!
+
+A couple examples:
 
 [Open AI Gym](https://gym.openai.com/)
 
@@ -287,9 +287,9 @@ Deep Learning is a subset of Machine Learning.
 
 It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and can learn from data to change the weights of the neurons. 
 
-[A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificiial Neural Networks! 
+[A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificial Neural Networks! 
 
-Let me know if you would like a worksshop on Deep Learning!
+Let me know if you would like a workshop on Deep Learning!
 
 ---
 
@@ -306,7 +306,7 @@ Some of the common models. Having an idea of what these do and applications they
 
 Use for **regression**
 
-Use for regression problems to predict a value on a continous spectrum 
+Use for regression problems to predict a value on a continuous spectrum 
 
 #### [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
@@ -324,7 +324,7 @@ if .5
 
 Use for **classification**
 
-k-NN finds the `k` number of nearest data points and makes a `educated` guess based on the classifications of the nearest datapoints.
+k-NN finds the `k` number of nearest data points and makes a `educated` guess based on the classifications of the nearest datapoint.
 
 ![iris](irisknn.png)
 
@@ -349,8 +349,8 @@ There can be a lot of factors to consider, like the size of data, Labels, Accura
 But when you're first starting out It's important to think about your desired outcome(output of the model).   
 
 Is it a number? Its a Regression problem.
-Is it a class? Its a classfication problem.
-Are you seperating data into groups? It’s a clustering problem
+Is it a class? Its a classification problem.
+Are you separating data into groups? It’s a clustering problem
 
 https://scikit-learn.org/stable/tutorial/machine_learning_map/
 
@@ -377,7 +377,7 @@ Training your model on your dataset. You'll see terms like fit and train used in
 
 Validate that your machine learning model is working on well on data that it was not trained on. 
 
-We trained the model, but need to validate that its working as expected. A common way is to split the dataset into traning and testing(We'll do this soon in python).
+We trained the model, but need to validate that its working as expected. A common way is to split the dataset into training and testing(We'll do this soon in python).
 
 
 # Machine Learning with Python:
@@ -408,7 +408,7 @@ Again this just some of them, there are soooooo many.....
 
 
 
-*Note*: if you're thinking of exploring data science with python loaclly on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
+*Note*: if you're thinking of exploring data science with python locallyClassification on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
 
 
 
@@ -416,7 +416,7 @@ Again this just some of them, there are soooooo many.....
 
 [Boston House Dataset](https://www.kaggle.com/c/boston-housing)
 
-Looking at this data how do we know that regression will be a good choice? Why not Classfication?
+Looking at this data how do we know that regression will be a good choice? Why not Classification?
 
 
 ### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
@@ -428,12 +428,12 @@ Looking at this data how do we know that regression will be a good choice? Why n
 
 [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
-Looking at this data how do we know that Classfication will be a good choice? Why not Regression?
+Looking at this data how do we know that Classification will be a good choice? Why not Regression?
 
 ### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
 
 
-# YOU MADE IT THORUGH!
+# YOU MADE IT THROUGH!
 
 Did you learn something new?
 
@@ -456,8 +456,6 @@ Start learning Software Engineering with our FREE online prep course!
 Start learning Data Science with our FREE online prep course!
 Premium option is free if you sign up today! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
 
-#### other Resources
-Siraj 
 
 
 ## Upcoming Events!
