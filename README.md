@@ -1,5 +1,9 @@
 # Intro to Machine Learning
 
+
+### Get to this repo! URL: [ml.sage.codes](https://github.com/sagecodes/intro-machine-learning) 
+
+
 Brought to you by Galvanize. Learn more about the way we teach at [galvanize.com](http://galvanize.com).
 
 
