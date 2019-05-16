@@ -267,6 +267,7 @@ Imagine trying to label every piece of information you get from a self driving c
 
 
 
+
 ## Reinforcement Learning
 
 Reinforcement Learning is often used in a situation where an algorithm can take an action in an environment and receive a `reward` based on making a good design.
@@ -289,13 +290,29 @@ It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Art
 
 [A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificial Neural Networks! 
 
-Let me know if you would like a workshop on Deep Learning!
+
+Deep Learning is killing it at recognising and generating complicated patterns. 
+
+- Computer vision (CV)
+	- Self Driving cars
+	- Amazon Go
+		
+- Natural Language Processing (NLP)
+	- Alexa
+	- Siri
+ 
+- Generative Adversarial Networks (GANs)
+	- [NVIDIA’s Hyperrealistic Face Generator](https://medium.com/syncedreview/gan-2-0-nvidias-hyperrealistic-face-generator-e3439d33ebaf)
+	- video game Character or level generation
+	- [art generation](https://www.artnome.com/news/2018/3/29/ai-art-just-got-awesome)
+
+
 
 ---
 
-For this class we're going to stay focused on Supervised Machine learning. 
+For this class we're going to stay focused on Supervised Machine learning. It's a great place to start!
 
-But what would you like to see a class on next?
+But out of all these what would you like to see a class on next?
 
 
 ## Supervised Learning Models
@@ -304,13 +321,13 @@ Some of the common models. Having an idea of what these do and applications they
 
 #### [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 
-Use for **regression**
+Typically used for **regression**
 
-Use for regression problems to predict a value on a continuous spectrum 
+Generally regression problems predict a value on a continuous spectrum 
 
 #### [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
-Use for **classification**
+Typically used for **classification**
 
 NOT used for regression problems! Has regression in the same due to the statistics behind the model.
 
@@ -322,7 +339,7 @@ if .5
 
 #### [K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
-Use for **classification**
+Typically used for **classification**
 
 k-NN finds the `k` number of nearest data points and makes a `educated` guess based on the classifications of the nearest datapoint.
 
@@ -331,14 +348,14 @@ k-NN finds the `k` number of nearest data points and makes a `educated` guess ba
 
 #### [Decision Trees](https://en.wikipedia.org/wiki/Random_forest)
 
-Use for **classification**
+Typically used for **classification**
 
 Maybe an over simplification but a Decision tree can be thought of like a bunch of if statements. 
 
 You've probably seen flow chats before with different paths to take depending on the data.
 
 
-
+#### More
 There are of course more than these 4 models, a few more popular ones you should look into are [Support Vector Machines](https://en.wikipedia.org/wiki/Support-vector_machine), [Random Forests](https://en.wikipedia.org/wiki/Random_forest), and [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier).
 
 
@@ -348,9 +365,9 @@ There can be a lot of factors to consider, like the size of data, Labels, Accura
 
 But when you're first starting out It's important to think about your desired outcome(output of the model).   
 
-Is it a number? Its a Regression problem.
-Is it a class? Its a classification problem.
-Are you separating data into groups? It’s a clustering problem
+- Is it a number? Its probably a Regression problem.
+- Is it a class / label? Its probably a classification problem.
+- Are you separating unlabeled data into groups? It’s probably a clustering problem.
 
 https://scikit-learn.org/stable/tutorial/machine_learning_map/
 
@@ -389,23 +406,40 @@ Again this just some of them, there are soooooo many.....
 
 #### [Pandas](https://pandas.pydata.org/)
 
+Pandas is often used to explore, clean, and visualize your data.
+
 #### [Numpy](http://www.numpy.org/)
+
+Numpy is often used for muulti dimensional array manipulation
 
 #### [matplotlib](https://matplotlib.org/)
 
+matplotlib is often used to visualizing your data in a chart like format
+
 #### [Scikitlearn](https://scikit-learn.org/stable/)
+
+Scikitlearn a.k.a. sklearn is a powerfil opensource machine learning libray
 
 #### [Tensorflow](https://www.tensorflow.org/)
 
+Library from Google for Machine Learning. Popular in Deep Learning.
+
 #### [Pytorch](https://pytorch.org/)
+
+Library from Facebook for Machine Learning. Popular in Deep Learning.
+
 
 #### [Keras](https://keras.io/)
 
-#### [NLTK]()
+A higher level wrapper that can be used with TensorFlow to make writing deep learning projects easier.
 
-#### [https://opencv.org/]()
+#### [NLTK](https://www.nltk.org/)
 
+An opensource library to get started with NLP.
 
+#### [OpenCV](https://opencv.org/)
+
+An opensource library to get started with computer vision and image manipulation.
 
 
 *Note*: if you're thinking of exploring data science with python locallyClassification on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
@@ -446,6 +480,8 @@ Do you have an awesome idea you want to use try using machine learning? What is 
 ## KEEP LEARNING!
 
 Best way to learn is solving a problem you're excited about!
+
+Use an "ugly" dataset. Understanding how to make a good dataset is important. 
 
 Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
 
