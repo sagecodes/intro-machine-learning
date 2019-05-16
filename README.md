@@ -449,41 +449,57 @@ Best way to learn is solving a problem you're excited about!
 
 Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
 
+- [Hack Reactor Software Engineer Prep](http://bit.ly/gsoftprep) FREE | study at your own pace
 
-Start learning Software Engineering with our FREE online prep course!
-[https://www.galvanize.com/web-development/prep](https://www.galvanize.com/web-development/prep)
-
-Start learning Data Science with our FREE online prep course!
-Premium option is free if you sign up today! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
+- [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
 
 
 
 ## Upcoming Events!
-We host many events! check out out our [meetup](https://www.meetup.com/Learn-Code-Seattle/events/) to stay up to date.
 
-What would you like to see next?
+Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
-- JavaScript Mini Bootcamp: Fundamentals II - 3/30 10am - 4:30pm
-- Intro to Data Analytics with Tableau - 4/04 6:30 - 8:30pm
-- JavaScript Mini Bootcamp: Fundamentals I - 4/13 10am - 4:30pm
-- JavaScript 101 - 4/17 6:30 - 8:30pm
+[Intro to Machine Learning](https://www.eventbrite.com/e/intro-to-machine-learning-tickets-60953543690)
+
+[Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
+
+More Coming in June!
+
+# What is Galvanize?
+
+> We create a technology ecosystem for learners, entrepreneurs, startups and established companies to meet the needs of the rapidly changing digital world.
+
+![](https://github.com/sagecodes/intro-data-science/raw/master/campus.png)
+
+- Education
+- Co-Working
+- Events
+- Enterprise
 
 
-## What is Galvanize?
+## Galvanize Classes
 
 #### Immersive Bootcamp
 
-- [Software Engineer](https://www.galvanize.com/web-development) - 4/8/19 - 7/5/19
-- [Data Science](https://www.galvanize.com/data-science) - 5/6/19 - 8/6/19
+Transform your career with our 13 week immersive programs
+
+- [Software Engineer](http://bit.ly/seawebdev) - 6/3/19 - 10/11/19
+- [Data Science](http://bit.ly/seadatascience) - 8/19/19 - 11/15/19
 
 
 #### Part-Time Courses
 
-- [Digital Marketing](https://www.galvanize.com/part-time/digital-marketing) - 5/13/19 - 6/7/19
+Learn while working with out evening part-time classes
+
+
+- [Python Fundamentals](http://bit.ly/seapyfun) - 6/4/19 - 7/11/19
+
+- [Data Analytics](http://bit.ly/seadataa) - 6/3/19 - 8/21/19
 
 #### Co-working Space
 
 [work in our building!](https://www.galvanize.com/entrepreneur)
+
 
 ## Questions
 
@@ -494,6 +510,7 @@ Please feel free to reach out to me with any questions! Let me know what you're 
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
 
 
 
