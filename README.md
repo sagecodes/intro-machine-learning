@@ -447,6 +447,15 @@ An opensource library to get started with computer vision and image manipulation
 *Note*: if you're thinking of exploring data science with python locallyClassification on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
 
 
+## Regression Project
+
+[Boston House Dataset](https://www.kaggle.com/c/boston-housing)
+
+Looking at this data how do we know that regression will be a good choice? Why not Classification?
+
+
+### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
+
 
 ## Classification Project
 
@@ -456,16 +465,6 @@ Looking at this data how do we know that Classification will be a good choice? W
 
 ### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
 
-
-
-## Regression Project
-
-[Boston House Dataset](https://www.kaggle.com/c/boston-housing)
-
-Looking at this data how do we know that regression will be a good choice? Why not Classification?
-
-
-### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
 
 
 
