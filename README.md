@@ -267,7 +267,6 @@ Imagine trying to label every piece of information you get from a self driving c
 
 
 
-
 ## Reinforcement Learning
 
 Reinforcement Learning is often used in a situation where an algorithm can take an action in an environment and receive a `reward` based on making a good design.
@@ -384,10 +383,13 @@ Training your model on your dataset. You'll see terms like fit and train used in
 
 ##### [overfitting](https://en.wikipedia.org/wiki/Overfitting)
 
+relies too much the relationships in training data, Fails to work correctly on new data.
+
 
 
 ##### [underfitting](https://en.wikipedia.org/wiki/Overfitting#Underfitting)
 
+Fails to learn the relationships in the training data to be used on new data
 
 
 ##### [cross validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
@@ -446,6 +448,16 @@ An opensource library to get started with computer vision and image manipulation
 
 
 
+## Classification Project
+
+[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+Looking at this data how do we know that Classification will be a good choice? Why not Regression?
+
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
+
+
+
 ## Regression Project
 
 [Boston House Dataset](https://www.kaggle.com/c/boston-housing)
@@ -456,15 +468,6 @@ Looking at this data how do we know that regression will be a good choice? Why n
 ### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
 
 
-
-
-## Classification Project
-
-[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-
-Looking at this data how do we know that Classification will be a good choice? Why not Regression?
-
-### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
 
 
 # YOU MADE IT THROUGH!
@@ -494,8 +497,6 @@ Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datase
 ## Upcoming Events!
 
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
-
-[Intro to Machine Learning](https://www.eventbrite.com/e/intro-to-machine-learning-tickets-60953543690)
 
 [Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
 
