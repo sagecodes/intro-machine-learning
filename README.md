@@ -11,7 +11,7 @@ Learn more Python & Data Science with Galvanize Data Science Premium Prep! Curre
 
 Get to this repo by typing in URL: **ml.sage.codes**
 
-### FAQ: 
+### FAQs: 
 
 - WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
 - Bathrooms: Behind you down the hall to the left
@@ -73,6 +73,25 @@ Give a quick Intro!
 - Why are you interested in Machine Learning?
 
 
+----
+
+#### FAQs Again for anyone who just came in: 
+
+- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
+
+##### Get to this repo! 
+
+URL: ml.sage.codes
+
+##### Setup
+
+- Moderen web browser 
+- Google account 
+
+
 
 # What is Machine Learning:
 
@@ -81,7 +100,7 @@ To put it very simply Machine Learning can usually be thought of using a statist
 
 Instead of explicitly programming an algorithm to do a specific task, we let it "learn" from data to find patterns and inference.
 
-We'll see example of this soon!
+We'll see examples of this soon!
 
 
 ###  Who uses Machine Learning?
@@ -135,7 +154,7 @@ We talked about a some examples above from big companies we probably all know of
 
 #### Smart Home Devices
 
-- Smart door Beel
+- Smart door Bell
 - Smart Lights
 - Security
 
