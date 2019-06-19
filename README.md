@@ -4,10 +4,7 @@
 ### Get to this repo! URL: [ml.sage.codes](https://github.com/sagecodes/intro-machine-learning) 
 
 
-Brought to you by Galvanize. Learn more about the way we teach at [galvanize.com](http://galvanize.com).
-
-
-Learn more Python & Data Science with Galvanize Data Science Premium Prep! Currently free if you sign up now! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
+Learn more Python & tools for Data Science with the free Galvanize prep course: [http://bit.ly/gprepdata](http://bit.ly/gprepdata)
 
 Get to this repo by typing in URL: **ml.sage.codes**
 
@@ -502,23 +499,28 @@ Do you have an awesome idea you want to use try using machine learning? What is 
 
 Best way to learn is solving a problem you're excited about!
 
-Use an "ugly" dataset. Understanding how to make a good dataset is important. 
+Challenges:
 
-Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
+- Use an "ugly" dataset. Understanding how to make a good dataset is important. 
+
+- Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
+
+- Use the SHAP library on a model you trained to understand the importance of features. 
 
 - [Hack Reactor Software Engineer Prep](http://bit.ly/gsoftprep) FREE | study at your own pace
 
 - [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
 
 
-
 ## Upcoming Events!
 
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
-[Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
+- [Data Science Study Session](https://www.eventbrite.com/e/data-science-study-session-tickets-63354939329) - 6/25/19 6:00pm 
 
-More Coming in June!
+
+More workshops in July Workshops will be posted soon!
+
 
 # What is Galvanize?
 
@@ -534,22 +536,19 @@ More Coming in June!
 
 ## Galvanize Classes
 
-#### Immersive Bootcamp
+### Immersive Bootcamp
 
-Transform your career with our 13 week immersive programs
+#### On Campus
+Transform your career with our immersive programs
 
-- [Software Engineer](http://bit.ly/seawebdev) - 6/3/19 - 10/11/19
-- [Data Science](http://bit.ly/seadatascience) - 8/19/19 - 11/15/19
+- [Software Engineer](http://bit.ly/seawebdev) (18 weeks) - 6/3/19 - 10/11/19
+- [Data Science](http://bit.ly/seadatascience) (13 weeks) - 8/19/19 - 11/15/19
 
+#### Remote 
+- [Software Engineer](http://bit.ly/seremote) (12 weeks) - 7/15/19 - 10/11/19 
+- [Software engineer | Part-time](http://bit.ly/seremotep) (36 weeks) - 7/23/19 - 4/11/19
+- [Data Science](http://bit.ly/dsiremote) (13 weeks) - 8/19/19 - 11/15/19
 
-#### Part-Time Courses
-
-Learn while working with out evening part-time classes
-
-
-- [Python Fundamentals](http://bit.ly/seapyfun) - 6/4/19 - 7/11/19
-
-- [Data Analytics](http://bit.ly/seadataa) - 6/3/19 - 8/21/19
 
 #### Co-working Space
 
