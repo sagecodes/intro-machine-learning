@@ -550,6 +550,11 @@ Transform your career with our immersive programs
 - [Data Science](http://bit.ly/dsiremote) (13 weeks) - 8/19/19 - 11/15/19
 
 
+#### Remote Part time fondations:
+
+- [Data Science Fundamentals: Intro to Python](https://www.eventbrite.com/e/data-science-fundamentals-intro-to-python-remote-708-725-tickets-63483954216) 7/8/19 - 7/25/19
+
+
 #### Co-working Space
 
 [work in our building!](https://www.galvanize.com/entrepreneur)
