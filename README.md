@@ -295,6 +295,8 @@ A couple examples:
 
 [Flappy Bird](https://github.com/yenchenlin/DeepLearningFlappyBird)
 
+[Sonic](https://www.linkedin.com/feed/update/urn:li:ugcPost:6547147121580220416)
+
 
 
 ## Deep Learning
@@ -462,6 +464,14 @@ An opensource library to get started with computer vision and image manipulation
 
 *Note*: if you're thinking of exploring data science with python locallyClassification on your computer look into using [Anaconda](https://www.anaconda.com/) to manage your python and data libraries. I'd go crazy without it!
 
+## Classification Project
+
+[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+Looking at this data how do we know that Classification will be a good choice? Why not Regression?
+
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
+
 
 ## Regression Project
 
@@ -473,13 +483,7 @@ Looking at this data how do we know that regression will be a good choice? Why n
 ### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
 
 
-## Classification Project
 
-[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-
-Looking at this data how do we know that Classification will be a good choice? Why not Regression?
-
-### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
 
 
 
