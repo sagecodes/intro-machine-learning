@@ -159,7 +159,7 @@ We talked about a some examples above from big companies we probably all know of
 
 - [NVIDIA’s Hyperrealistic Face Generator](https://medium.com/syncedreview/gan-2-0-nvidias-hyperrealistic-face-generator-e3439d33ebaf)
 - video game Character or level generation
-- [art generation](https://www.artnome.com/news/2018/3/29/ai-art-just-got-awesome)
+
 
 
 #### Agriculture
@@ -296,6 +296,8 @@ A couple examples:
 [Flappy Bird](https://github.com/yenchenlin/DeepLearningFlappyBird)
 
 [Sonic](https://www.linkedin.com/feed/update/urn:li:ugcPost:6547147121580220416)
+
+[AWS Deepracer](https://aws.amazon.com/deepracer/) 
 
 
 
@@ -506,9 +508,9 @@ Best way to learn is solving a problem you're excited about!
 
 Challenges:
 
-- Use an "ugly" dataset. Understanding how to make a good dataset is important. 
+- Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today. Look up how to use some of the other models in Scikit learn: Random Forest, Naive Bays, ect and experiement with them on the same datasets.
 
-- Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
+- Use an "ugly" dataset. Understanding how to make a good dataset is important. 
 
 - Use the SHAP library on a model you trained to understand the importance of features. 
 
@@ -524,7 +526,7 @@ Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) me
 - [Data Science Study Session](https://www.eventbrite.com/e/data-science-study-session-tickets-63354939329) - 6/25/19 6:00pm 
 
 
-More workshops in July Workshops will be posted soon!
+More workshops will be posted soon! What would you like to see next?
 
 
 # What is Galvanize?
