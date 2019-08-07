@@ -356,7 +356,7 @@ if .5
 
 #### [K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
-Typically used for **classification**
+Typically used for **classification** or **regression**
 
 k-NN finds the `k` number of nearest data points and makes a `educated` guess based on the classifications of the nearest datapoint.
 
@@ -365,7 +365,7 @@ k-NN finds the `k` number of nearest data points and makes a `educated` guess ba
 
 #### [Decision Trees](https://en.wikipedia.org/wiki/Random_forest)
 
-Typically used for **classification**
+Typically used for **classification** or **regression**
 
 Maybe an over simplification but a Decision tree can be thought of like a bunch of if statements. 
 
@@ -386,11 +386,12 @@ But when you're first starting out It's important to think about your desired ou
 - Is it a class / label? Its probably a classification problem.
 - Are you separating unlabeled data into groups? It’s probably a clustering problem.
 
-https://scikit-learn.org/stable/tutorial/machine_learning_map/
+Scikit learn has a graphic that can help when you're starting out: 
+[https://scikit-learn.org/stable/tutorial/machine_learning_map/](https://scikit-learn.org/stable/tutorial/machine_learning_map/)
 
 
 
-# Some Basics Terms:
+<!--# Some Basics Terms:
 
 We can only scratch the surface of Machine Learning tonight in this workshop, so this is by no means everything you need to know, but it should help you get started!
 
@@ -416,7 +417,7 @@ Validate that your machine learning model is working on well on data that it was
 
 We trained the model, but need to validate that its working as expected. A common way is to split the dataset into training and testing(We'll do this soon in python).
 
-
+-->
 # Machine Learning with Python:
 
 ## Popular Python Data & Machine Learning Libraries
