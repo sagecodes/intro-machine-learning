@@ -548,23 +548,15 @@ More workshops will be posted soon! What would you like to see next?
 #### On Campus
 Transform your career with our immersive programs
 
-- [Software Engineer](http://bit.ly/seawebdev) (18 weeks) - 6/3/19 - 10/11/19
+- [Software Engineer](http://bit.ly/seawebdev) (18 weeks) - 9/9/19 - 1/24/19
 - [Data Science](http://bit.ly/seadatascience) (13 weeks) - 8/19/19 - 11/15/19
 
 #### Remote 
-- [Software Engineer](http://bit.ly/seremote) (12 weeks) - 7/15/19 - 10/11/19 
-- [Software engineer | Part-time](http://bit.ly/seremotep) (36 weeks) - 7/23/19 - 4/11/19
+- [Software Engineer](http://bit.ly/seremote) (12 weeks) - 9/3/19 - 11/29/19 
+- [Software engineer | Part-time](http://bit.ly/seremotep) (36 weeks) - 9/9/19 - 5/30/19
 - [Data Science](http://bit.ly/dsiremote) (13 weeks) - 8/19/19 - 11/15/19
 
 
-#### Remote Part time fondations:
-
-- [Data Science Fundamentals: Intro to Python](https://www.eventbrite.com/e/data-science-fundamentals-intro-to-python-remote-708-725-tickets-63483954216) 7/8/19 - 7/25/19
-
-
-#### Co-working Space
-
-[work in our building!](https://www.galvanize.com/entrepreneur)
 
 
 ## Questions
