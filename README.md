@@ -504,6 +504,10 @@ Do you have an awesome idea you want to use try using machine learning? What is 
 
 ## KEEP LEARNING!
 
+There is SO much more to learn about data science and machine learning. We really only scratched the surafce here!
+
+Read more about Feature Engineering, Model Selection, Model Tuning.
+
 Best way to learn is solving a problem you're excited about!
 
 Challenges:
