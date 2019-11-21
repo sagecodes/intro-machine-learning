@@ -514,20 +514,25 @@ Challenges:
 
 - Use the SHAP library on a model you trained to understand the importance of features. 
 
-- [Hack Reactor Software Engineer Prep](http://bit.ly/gsoftprep) FREE | study at your own pace
+##### Resources
 
 - [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
+
+- [Hack Reactor Software Engineer Prep](http://bit.ly/gsoftprep) FREE | study at your own pace
+
 
 
 ## Upcoming Events!
 
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
-- [Data Science Study Session](https://www.eventbrite.com/e/data-science-study-session-tickets-63354939329) - 6/25/19 6:00pm 
+
+- [Google AI Study Jam: Machine Learning and Image Processing](http://bit.ly/2NNv5Hz) - 11/21/19 5:00pm
 
 
-More workshops will be posted soon! What would you like to see next?
+- [Breaking into Software Engineering / Web Development Discussion Panel](https://www.eventbrite.com/e/break-into-software-engineering-alumni-discussion-panel-seattle-tickets-72146364719) - 11/25/19 6:30pm
 
+- [Build a bot to play Rocket League with Python](https://www.meetup.com/Learn-Code-Seattle/events/266499875/) -12/4/19 6:30pm
 
 # What is Galvanize?
 
@@ -543,20 +548,28 @@ More workshops will be posted soon! What would you like to see next?
 
 ## Galvanize Classes
 
-### Immersive Bootcamp
+#### Immersive Bootcamp
 
-#### On Campus
 Transform your career with our immersive programs
 
-- [Software Engineer](http://bit.ly/seawebdev) (18 weeks) - 9/9/19 - 1/24/19
-- [Data Science](http://bit.ly/seadatascience) (13 weeks) - 8/19/19 - 11/15/19
+- [Software Engineer](http://bit.ly/seawebdev) - 12/09/19 & 2/10/2020
+- [Data Science](http://bit.ly/seadatascience) - 12/2/19 & 3/16/2020
 
-#### Remote 
-- [Software Engineer](http://bit.ly/seremote) (12 weeks) - 9/3/19 - 11/29/19 
-- [Software engineer | Part-time](http://bit.ly/seremotep) (36 weeks) - 9/9/19 - 5/30/19
-- [Data Science](http://bit.ly/dsiremote) (13 weeks) - 8/19/19 - 11/15/19
+Remote options:
+
+check out [Galvanize.com](https://www.galvanize.com/)
 
 
+#### Part-Time Courses
+
+Learn while working with out evening part-time classes
+
+[Galvanize.com](https://www.galvanize.com/)
+
+
+#### Co-working Space
+
+[work in our building!](https://www.galvanize.com/entrepreneur)
 
 
 ## Questions
@@ -568,6 +581,7 @@ Please feel free to reach out to me with any questions! Let me know what you're 
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
 
 
 
